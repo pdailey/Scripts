@@ -4,7 +4,7 @@ TODAY=`date '+%Y-%m-%d'`;
 
 # Source and Destination directories
 # Note lack of trailing / makes output easier to discern
-src=/Users/peterdailey/Test
+src=/Users/peterdailey/Scripts/RotateLogs
 dst=~/Desktop
 
 # Copy files in source directory
@@ -17,8 +17,8 @@ do
         filename="${filename%.*}"
 
         out=$filename-$TODAY.$extension
-        echo "Processing: $filename"
-        echo "Renaming and moving to desktop: $out"
+        echo "Processing: "$filename""
+        echo "Renaming and moving to desktop: "$out""
         # Copy to the destination
-        cp $f $dst/$out
+        cp "$f" "$dst"/"$out"
 done
