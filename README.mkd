@@ -1,0 +1,2 @@
+# Scripts Folder
+A collection of bash scripts, mostly for use in the Raspberry Pi. Copy and change at will

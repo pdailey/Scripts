@@ -1,0 +1,2 @@
+## Rotate Logs
+Copies csv logs created with Node-RED and moves them to a separate folder with a date appended.
