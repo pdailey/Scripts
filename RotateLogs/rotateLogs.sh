@@ -4,8 +4,8 @@ TODAY=`date '+%Y-%m-%d'`;
 
 # Source and Destination directories
 # Note lack of trailing / makes output easier to discern
-src=/Users/peterdailey/Scripts/RotateLogs
-dst=~/Desktop
+src=/usr/lib/node_modules/node-red
+dst=/home/pi/Logs
 
 # Copy files in source directory
 # TODO After testing, change cp to mv
